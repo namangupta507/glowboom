@@ -26,7 +26,7 @@ export const Section3 = () => {
                             <p>As a leader in the industry since 2017, Glow & Bloom has a wealth of knowledge and experience in everything related to the manufacturing of excellent products. We’re committed to providing a variety of companies and individuals with quality products and innovations. The industry is constantly changing, so we're constantly working to keep up with the latest advancements.</p>
                         </div>
                         <div className='left-inner-button'>
-                            <Link to='/about-us' className="read-more-button">Read More</Link>
+                            <Link to='/glowboom/about-us' className="read-more-button">Read More</Link>
                         </div>
                     </div>
                 </div>

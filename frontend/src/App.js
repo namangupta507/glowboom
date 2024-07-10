@@ -23,7 +23,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   const ProtectedRoute = ({ children, isAuthenticated }) => {
-    return isAuthenticated ? children : <Navigate to="/" />;
+    return isAuthenticated ? children : <Navigate to="/glowboom" />;
   };
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -41,7 +41,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/about-us",
+          path: "/glowboom/about-us",
           element: (
             <>
               <Navbar />
@@ -51,7 +51,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/contact-us",
+          path: "/glowboom/contact-us",
           element: (
             <>
               <Navbar />
@@ -61,7 +61,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/shop",
+          path: "/glowboom/shop",
           element: (
             <>
               <Navbar />
@@ -71,7 +71,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/blogs",
+          path: "/glowboom/blogs",
           element: (
             <>
               <Navbar />
@@ -81,7 +81,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/hair-care",
+          path: "/glowboom/hair-care",
           element: (
             <>
               <Navbar />
@@ -91,7 +91,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/skin-care",
+          path: "/glowboom/skin-care",
           element: (
             <>
               <Navbar />
@@ -101,7 +101,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/offers",
+          path: "/glowboom/offers",
           element: (
             <>
               <Navbar />
@@ -111,11 +111,11 @@ export const App = () => {
           ),
         },
         {
-          path: "/admin/login",
+          path: "/glowboom/admin/login",
           element: <Login onLogin={() => setIsAuthenticated(true)} />,
         },
         {
-          path: "/admin",
+          path: "/glowboom/admin",
           element: (
             <ProtectedRoute isAuthenticated={isAuthenticated}>
               <AdminDashboard />
