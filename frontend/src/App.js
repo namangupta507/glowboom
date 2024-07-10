@@ -31,7 +31,7 @@ export const App = () => {
     <RouterProvider
       router={createBrowserRouter([
         {
-          path: "/",
+          path: "/glowboom",
           element: (
             <>
               <Navbar />
