@@ -1,0 +1,21 @@
+.slick-slide img {
+    display: block;
+    /* height: 800px; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.section-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-2 .vt-homeslider .slick-dots li button:before {
+  
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 11px !important;
+    width: 21px !important;
+    height: 21px !important;
+}
+

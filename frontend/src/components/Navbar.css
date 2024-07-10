@@ -1,0 +1,44 @@
+a.vt-logo img {
+    width: 100%;
+    max-width: 130px;
+    object-fit: cover;
+}
+.vt-navbar {
+    padding-top: 10px;
+    padding-bottom: 37px;
+    background-color: #f9eff5;
+}
+.vt-navbar-inner {
+    justify-content: center;
+}
+li.vt-items {
+    height: 50px;
+}
+
+a.vt-links {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: 'Jost';
+}
+.vt-left{
+    align-items: baseline;
+}
+@media screen and (max-width: 767px) {
+.vt-navbar {
+    position: relative;
+  }
+  
+  .cart-updation {
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+.vt-space {
+   display: none;
+}
+}

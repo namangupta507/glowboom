@@ -1,0 +1,46 @@
+.section8-imageblock {
+    text-align: center;
+}
+.section8-imageblock img {
+    width: 100%;
+    height: 100%;
+    max-width: 93px;
+    max-height: 93px;
+    object-fit: cover;
+}
+.section8-heading {
+    margin-top: 8px;
+}
+.section8-heading p {
+    text-align: center;
+    font-size: 23px;
+    color: #D31B5E;
+    line-height: 15px;
+    font-weight: 600;
+    font-family: 'Jost';
+}
+.section8-info {
+    text-align: center;
+    padding: 0 10px;
+}
+.section8-info p {
+    font-size: 16px;
+    color: #777;
+    font-weight: 400;
+    font-family: 'Jost';
+}
+.oddone {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    padding: 5px 0 3px 0px;
+    border-radius: 3px;
+}
+.section8-inner {
+   
+    padding: 5px 0 3px 0px;
+ 
+}
+.section8 {
+    box-shadow: 0px 0px 3px 0px #D31B5E;
+    padding: 13px;
+    margin: 20px 0;
+}

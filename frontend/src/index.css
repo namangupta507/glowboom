@@ -1,0 +1,359 @@
+
+
+body {
+  overflow-x: hidden;
+  background-image: url('../src/assets/YTTT.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* font-family: 'Jost'; */
+}
+/* login page css */
+
+.login-main {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.vt-main {
+  display: block;
+  box-shadow: rgb(165 48 108) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-image img{
+  width: 100%;
+}
+.vt-form {
+
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 55px;
+ 
+}
+
+span.fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+span.fields label {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 150px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 35px;
+  background-color: #e66aab;
+  color: white;
+  border: none;
+}
+
+/* ----- */
+
+/* admin page css */
+
+.addproduct {
+  margin: 10px 0 10px 0px;
+}
+.vt-icons {
+  width: 27px;
+}
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: block;
+  box-shadow: rgb(165 48 108) 0px 5px 15px;
+  padding: 50px 40px 50px 40px;
+  border-radius: 10px;
+  background:#fff;
+}
+.admin-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+.admin-fields label {
+  width: 170px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #767676;
+}
+.admin-fields input {
+  padding: 10px;
+  width: 280px;
+}
+.admin-fields select {
+  width: 280px;
+  padding: 10px;
+}
+
+button.admin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 190px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 35px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  margin-top: 100px;
+}
+.single-image-preview {
+  width: 300px;
+  display: block;
+}
+
+.multiple-images-preview {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  overflow: scroll;
+  gap: 25px;
+  height: 90px;
+}
+.single-image-preview img {
+  width: 100%;
+}
+
+.multiple-images-preview img {
+  width: 100%;
+}
+
+button.edit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 22px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+}
+
+/* ------ */
+
+
+.products-main {
+  margin-top: 50px;
+}
+
+.products-block {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: white;
+}
+
+img.product_image {
+  width: 100%;
+}
+.image-block {
+  height: 300px;
+}
+p.product_title {
+  height: 80px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.heading h1 {
+  color: white;
+}
+p.product_category {
+  text-transform: uppercase;
+  color: grey;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.admin-links {
+  display: flex;
+  gap: 10px;
+}
+.inner-block {
+  padding: 10px;
+}
+.products-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button.product-edit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  background: #0000ff99;
+  color: white;
+  font-size: 18px;
+}
+button.product-delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  background: #0000ff99;
+  color: white;
+  font-size: 18px;
+}
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 1px solid white;
+}
+.content-area {
+  margin-left: 250px;
+  background: #212529;
+  height: auto;
+}
+/* modal inner css */
+
+.updation-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updation-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 50vw;
+}
+.updation-fields input {
+  width: 250px;
+  padding: 10px;
+}
+.updation-fields select {
+  width: 250px;
+  padding: 10px;
+}
+.updation-fields textarea {
+  width: 250px;
+  padding: 10px;
+}
+.updation-image img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.updation-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+button.updation-button-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+}
+button.updation-button-cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+}
+.ReactModal__Content--after-open {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: whitesmoke;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 50vw !important;
+  margin: auto !important;
+  height: fit-content !important;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.modal-heading
+{
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+.updation-fields {
+  align-items: center;
+  width: 100% !important;
+}
+.updation-buttons {
+  gap: 14px;
+}
+.updation-image img {
+  
+  max-width: 150px;
+}
+.image-block {
+  height: auto;
+}
+
+
+.content {
+
+  padding: 10px;
+ 
+}
+.admin-fields {
+ 
+  gap: 10px;
+ 
+  flex-direction: column;
+}
+span.admin-links_span {
+  width: 90px;
+}
+.login-main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content-area {
+  margin-left: 140px;
+}
+}
+
+
+/* -------- */
+

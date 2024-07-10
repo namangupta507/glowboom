@@ -1,0 +1,27 @@
+.left-separator{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display: block;
+    width: 100px;
+    border-bottom-color: #E5E5E5;
+}
+.right-separator {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display: block;
+    width: 100px;
+    border-bottom-color: #E5E5E5;
+}
+.section5-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-heading h2 {
+    color: #D31B5E;
+    font-size: 38px;
+    padding: 0 30px;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+}

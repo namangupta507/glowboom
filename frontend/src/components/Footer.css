@@ -1,0 +1,106 @@
+.footer {
+    background: #f9eff5;
+    padding: 30px 0;
+}
+.footer-imageblock {
+    text-align: center;
+}
+.footer-imageblock img {
+    width: 100%;
+    height: 100%;
+    max-width: 232px;
+    max-height: 194px;
+    object-fit: cover;
+}
+
+.footer-icons-inner {
+    color: #222222;
+    border: none;
+    font-size: 22px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 45px;
+}
+
+.contact-inner-heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contact-icon {
+    background-color: #C6C6C6;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 26px;
+    margin-right: 0.687rem;
+    padding: 10px;
+    line-height: 1;
+}
+
+.contact-inner-heading1_content p {
+    margin: 0 !important;
+}
+.contact-inner-heading2 {
+    margin-top: 20px;
+}
+.contact-inner-heading1_content .p1 {
+    color: #777777;
+    font-family: 'Jost';
+    font-size: 16px;
+}
+.contact-inner-heading1_content .p2 {
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Jost';
+    text-align: center;
+}
+.contact-inner-heading2 li p span {
+    color: #222222;
+    margin-right: 5px;
+}
+.contact-inner-heading2 li p{
+    color: #777777;
+    font-family: 'Jost';
+    font-size: 16px;
+}
+.contact-inner-heading2 ul {
+    text-align: center;
+    list-style: none;
+}
+.footer-heading {
+    text-align: center;
+}
+.footer-heading p {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Jost';
+}
+.contact-inner-heading2 li .footer-contact-mail{
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Jost';
+    font-size: 16px;
+}
+.contact-inner-heading2 li .footer-contact-mail:hover{
+    color: #222222;
+}
+.footer-info ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footer-info ul li a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Jost";
+}
+.footer-info ul li a:hover {
+    color: #222222;
+}

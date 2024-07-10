@@ -1,0 +1,75 @@
+.section-inner {
+    margin-top: 75px;
+}
+.section-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.left-separator{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display: block;
+    width: 100px;
+    border-bottom-color: #E5E5E5;
+}
+.right-separator {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display: block;
+    width: 100px;
+    border-bottom-color: #E5E5E5;
+}
+
+.left-inner-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-inner-heading{
+    text-align: center;
+}
+.left-inner-heading h2 {
+    color: #D31B5E;
+    padding: 0 30px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 38px;
+}
+.left-inner-description {
+    text-align: center;
+}
+.left-inner-description p {
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Jost';
+}
+.left-inner-content p {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Jost';
+}
+.left-inner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: #B1385F;
+    /* color: white; */
+    border-radius: 5px;
+    margin: auto;
+}
+.left-inner-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Jost';
+}
+.right-inner img {
+    width: 100%;
+}
