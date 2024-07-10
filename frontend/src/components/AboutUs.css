@@ -2,7 +2,7 @@
     padding: 10px 70px;
 }
 .about-us-title {
-    background-image: url(http://localhost:3001/static/media/aboutus.bcb5fb857dd1e17c18a1.jpg);
+    background-image: url("../assets/about-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
