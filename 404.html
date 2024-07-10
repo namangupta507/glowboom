@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="0; URL=./index.html">
     <script>
-      // Script to handle client-side routing by redirecting to the index.html
-      (function () {
+      window.onload = function () {
         var pathname = window.location.pathname;
         if (pathname !== '/') {
-          window.location.href = 'https://namangupta507.github.io/glowboom/' + pathname;
+          window.location.href = pathname;
         }
-      })();
+      };
     </script>
   </head>
   <body></body>
