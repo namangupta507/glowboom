@@ -1,12 +1,9 @@
 {
   "files": {
     "main.css": "/glowboom/static/css/main.efcc2ef4.css",
-    "main.js": "/glowboom/static/js/main.1052bb3a.js",
+    "main.js": "/glowboom/static/js/main.7ee7adb1.js",
     "static/js/453.d855a71b.chunk.js": "/glowboom/static/js/453.d855a71b.chunk.js",
-    "static/media/a8.png": "/glowboom/static/media/a8.982197cf729b9b82714e.png",
-    "static/media/a6.png": "/glowboom/static/media/a6.a5487824052410fa77a1.png",
-    "static/media/a10.png": "/glowboom/static/media/a10.e05911058cea0a0cdb6f.png",
-    "static/media/a5.png": "/glowboom/static/media/a5.87bcd51b51627a0ea864.png",
+    "static/media/ss1.jpg": "/glowboom/static/media/ss1.33dfc64791324599243e.jpg",
     "static/media/b10.png": "/glowboom/static/media/b10.94826e0097c6ad09788d.png",
     "static/media/b9.png": "/glowboom/static/media/b9.0c3063322f5b2aea29f2.png",
     "static/media/b6.png": "/glowboom/static/media/b6.933b3fdcb6143ba8c39d.png",
@@ -17,6 +14,9 @@
     "static/media/b5.png": "/glowboom/static/media/b5.0ab230909ccaf5565cd2.png",
     "static/media/b7.png": "/glowboom/static/media/b7.30b3e707aaf488985041.png",
     "static/media/b8.png": "/glowboom/static/media/b8.30b3e707aaf488985041.png",
+    "static/media/ss4.jpg": "/glowboom/static/media/ss4.568117a3320711c7fcef.jpg",
+    "static/media/ss3.jpg": "/glowboom/static/media/ss3.a5cf2c3c97530047f135.jpg",
+    "static/media/ss2.jpg": "/glowboom/static/media/ss2.42ec734b1b49d2b1c7d5.jpg",
     "static/media/b14.png": "/glowboom/static/media/b14.fc85d3a4dc969a7c1078.png",
     "static/media/b17.png": "/glowboom/static/media/b17.c3914554ab097b52b1ad.png",
     "static/media/b15.png": "/glowboom/static/media/b15.23f81081e6ef8d996135.png",
@@ -46,11 +46,11 @@
     "index.html": "/glowboom/index.html",
     "static/media/slick.woff": "/glowboom/static/media/slick.295183786cd8a1389865.woff",
     "main.efcc2ef4.css.map": "/glowboom/static/css/main.efcc2ef4.css.map",
-    "main.1052bb3a.js.map": "/glowboom/static/js/main.1052bb3a.js.map",
+    "main.7ee7adb1.js.map": "/glowboom/static/js/main.7ee7adb1.js.map",
     "453.d855a71b.chunk.js.map": "/glowboom/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efcc2ef4.css",
-    "static/js/main.1052bb3a.js"
+    "static/js/main.7ee7adb1.js"
   ]
 }
