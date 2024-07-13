@@ -48,7 +48,7 @@ export const AddProduct = () => {
         }
 
         try {
-            const res = await axios.post('http://localhost:3000/products/addProduct', formData, {
+            const res = await axios.post('https://glowboom-eem8.vercel.app/products/addProduct', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }

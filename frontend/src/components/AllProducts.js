@@ -19,7 +19,7 @@ export const AllProducts = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await axios.get('http://localhost:3000/allproducts');
+                const res = await axios.get('https://glowboom-eem8.vercel.app/allproducts');
                 setProducts(res.data);
                 setFilteredProducts(res.data); 
             } catch (error) {
@@ -70,7 +70,7 @@ export const AllProducts = () => {
         images.forEach(image => formData.append('images', image));
 
         try {
-            const res = await axios.put(`http://localhost:3000/products/editProduct/${currentProduct._id}`, formData, {
+            const res = await axios.put(`https://glowboom-eem8.vercel.app/products/editProduct/${currentProduct._id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
@@ -92,7 +92,7 @@ export const AllProducts = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:3000/products/deleteProduct/${id}`);
+            await axios.delete(`https://glowboom-eem8.vercel.app/products/deleteProduct/${id}`);
             setProducts(products.filter(product => product._id !== id));
         } catch (error) {
             console.error('Error deleting product:', error);
@@ -119,7 +119,7 @@ export const AllProducts = () => {
                             <div className="products-block">
                                 {product?.images?.map((image, index) => (
                                     <div className="image-block">
-                                    <img key={index} className='product_image' src={`http://localhost:3000/${image}`} alt="product_image" />
+                                    <img key={index} className='product_image' src={`https://glowboom-eem8.vercel.app/${image}`} alt="product_image" />
                                     </div>
                                 ))}
                                 <div className="inner-block">

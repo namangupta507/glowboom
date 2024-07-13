@@ -16,7 +16,7 @@ export const RandomProductSection = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get('http://localhost:3000/allproducts');
+        const res = await axios.get('https://glowboom-eem8.vercel.app/allproducts');
         setProducts(getRandomProducts(res.data, 10)); 
       } catch (error) {
         console.error('Error fetching products:', error);

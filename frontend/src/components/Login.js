@@ -12,7 +12,7 @@ export const Login = ({ onLogin }) => {
       e.preventDefault();
         try {
         
-        const res=await axios.post("http://localhost:3000/api/login",{username,password});
+        const res=await axios.post("https://glowboom-eem8.vercel.app/api/login",{username,password});
       
         if(res.data.message==="login successful"){
           // alert("login success")
