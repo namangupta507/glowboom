@@ -23,7 +23,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   const ProtectedRoute = ({ children, isAuthenticated }) => {
-    return isAuthenticated ? children : <Navigate to="/glowboom/admin/login" />;
+    return isAuthenticated ? children : <Navigate to="/admin/login" />;
   };
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -31,7 +31,7 @@ export const App = () => {
     <RouterProvider
       router={createBrowserRouter([
         {
-          path: "/glowboom",
+          path: "/",
           element: (
             <>
               <Navbar />
@@ -41,7 +41,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/about-us",
+          path: "/about-us",
           element: (
             <>
               <Navbar />
@@ -51,7 +51,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/contact-us",
+          path: "/contact-us",
           element: (
             <>
               <Navbar />
@@ -61,7 +61,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/shop",
+          path: "/shop",
           element: (
             <>
               <Navbar />
@@ -71,7 +71,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/blogs",
+          path: "/blogs",
           element: (
             <>
               <Navbar />
@@ -81,7 +81,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/hair-care",
+          path: "/hair-care",
           element: (
             <>
               <Navbar />
@@ -91,7 +91,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/skin-care",
+          path: "/skin-care",
           element: (
             <>
               <Navbar />
@@ -101,7 +101,7 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/offers",
+          path: "/offers",
           element: (
             <>
               <Navbar />
@@ -111,11 +111,11 @@ export const App = () => {
           ),
         },
         {
-          path: "/glowboom/admin/login",
+          path: "/admin/login",
           element: <Login onLogin={() => setIsAuthenticated(true)} />,
         },
         {
-          path: "/glowboom/admin",
+          path: "/admin",
           element: (
             <ProtectedRoute isAuthenticated={isAuthenticated}>
               <AdminDashboard />

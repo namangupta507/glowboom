@@ -15,33 +15,33 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse vt-navbar-inner" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 vt-left">
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" aria-current="page" to='/glowboom'>Home</NavLink>
+              <NavLink className="nav-link vt-links" aria-current="page" to='/'>Home</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/about-us'>About Us</NavLink>
+              <NavLink className="nav-link vt-links" to='/about-us'>About Us</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/shop'>Shop</NavLink>
+              <NavLink className="nav-link vt-links" to='/shop'>Shop</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/skin-care'>skin care</NavLink>
+              <NavLink className="nav-link vt-links" to='/skin-care'>skin care</NavLink>
             </li>
             <li className="nav-item vt-items vt-space">
-              <NavLink className="vt-logo" href="/glowboom">
+              <NavLink className="vt-logo" href="/">
                 <img src={logo} alt="logo"></img>
               </NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/hair-care'>hair care</NavLink>
+              <NavLink className="nav-link vt-links" to='/hair-care'>hair care</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/blogs'>blogs</NavLink>
+              <NavLink className="nav-link vt-links" to='/blogs'>blogs</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/offers'>offers</NavLink>
+              <NavLink className="nav-link vt-links" to='/offers'>offers</NavLink>
             </li>
             <li className="nav-item vt-items">
-              <NavLink className="nav-link vt-links" to='/glowboom/contact-us'>contact us</NavLink>
+              <NavLink className="nav-link vt-links" to='/contact-us'>contact us</NavLink>
             </li>
           </ul>
         </div> 

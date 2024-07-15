@@ -19,22 +19,22 @@ export const Footer = () => {
                 <div className='footer-info'>
                     <ul>
                         <li>
-                        <Link to="/glowboom">Home</Link>
+                        <Link to="/">Home</Link>
                         </li>
                         <li>
-                         <Link to="/glowboom/about-us">About Us</Link>
+                         <Link to="/about-us">About Us</Link>
                          </li>
                          <li>
-                         <Link to="/glowboom/shop">Shop</Link>
+                         <Link to="/shop">Shop</Link>
                          </li>
                          <li>
-                         <Link to="/glowboom/offers">Offers</Link>
+                         <Link to="/offers">Offers</Link>
                          </li>
                          <li>
-                         <Link to="/glowboom/blogs">Blogs</Link>
+                         <Link to="/blogs">Blogs</Link>
                          </li>
                          <li>
-                         <Link to="/glowboom/contact-us">Contact Us</Link>
+                         <Link to="/contact-us">Contact Us</Link>
                          </li>
                     </ul>
                 </div>

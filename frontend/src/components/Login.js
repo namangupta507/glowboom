@@ -17,7 +17,7 @@ export const Login = ({ onLogin }) => {
         if(res.data.message==="login successful"){
           // alert("login success")
           onLogin();
-          navigate('/glowboom/admin');
+          navigate('/admin');
 
         }else{
           alert('Invalid credentials');

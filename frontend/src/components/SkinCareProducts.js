@@ -42,7 +42,7 @@ export const SkinCareProducts = () => {
                     ))}
                 </div>
                 <div className="view-all-button">
-                    <Link to="/glowboom/skin-care">View All</Link>
+                    <Link to="/skin-care">View All</Link>
                 </div>
             </div>
         
