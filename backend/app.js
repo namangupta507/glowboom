@@ -13,13 +13,8 @@ const loginRoute=require('./routes/login');
 const productRoute=require('./routes/productRoute');
 const allProductsRoute=require('./routes/allProducts');
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'frontend/build')));
 
-// Handle all other routes and return the index.html file
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
-});
+
 
 var app = express();
 
@@ -34,6 +29,13 @@ app.set('view engine', 'jade');
 app.use(logger('dev'));
 app.use(cors(corsOptions));
 app.use(express.json());
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'frontend/build')));
+
+// Handle all other routes and return the index.html file
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
+});
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
