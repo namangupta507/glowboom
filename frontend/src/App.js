@@ -23,7 +23,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   const ProtectedRoute = ({ children, isAuthenticated }) => {
-    return isAuthenticated ? children : <Navigate to="/glowboom" />;
+    return isAuthenticated ? children : <Navigate to="/glowboom/admin/login" />;
   };
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
