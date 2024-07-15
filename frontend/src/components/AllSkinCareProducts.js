@@ -7,7 +7,7 @@ export const AllSkinCareProducts = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await axios.get('https://glowboom-eem8.vercel.app/allproducts');
+                const res = await axios.get('https://glowboom.onrender.com/allproducts');
                 const filtered = res.data.filter(product => product.category.includes('Skin Care'));
                 setSkinCareProducts(filtered);
             } catch (error) {
@@ -26,7 +26,7 @@ export const AllSkinCareProducts = () => {
                         <div className="products-block">
                             {product?.images?.map((image, index) => (
                                 <div className="image-block" key={index}>
-                                    <img className='product_image' src={`https://glowboom-eem8.vercel.app/${image}`} alt="product_image" />
+                                    <img className='product_image' src={`https://glowboom.onrender.com/${image}`} alt="product_image" />
                                 </div>
                             ))}
                             <div className="inner-block">

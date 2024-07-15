@@ -16,7 +16,7 @@ export const RandomProductSection = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get('https://glowboom-eem8.vercel.app/allproducts');
+        const res = await axios.get('https://glowboom.onrender.com/allproducts');
         setProducts(getRandomProducts(res.data, 10)); 
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -40,7 +40,7 @@ export const RandomProductSection = () => {
     return (
       <div key={product._id} className="random-products-item">
         <div className='random-products-image'>
-        <img src={`http://localhost:3000/${product.images[0]}`} alt={product.title} />
+        <img src={`https://glowboom.onrender.com/${product.images[0]}`} alt={product.title} />
         </div>
         <div className='random-products-inner'>
         <p className='random-products-category'>{product.category}</p>

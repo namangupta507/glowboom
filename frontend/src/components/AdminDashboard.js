@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 export const AdminDashboard = () => {
     const navigate=useNavigate();
     const handleLogout = () => {
-        navigate('/');
+        navigate('/glowboom/admin/login');
       };
   return (
     <div className="container-fluid">
@@ -34,7 +34,7 @@ export const AdminDashboard = () => {
             </div>
             <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
               <li>
-                <Link to="/orders" className="nav-link px-0 align-middle admin-links">
+                <Link to="/glowboom/admin/orders" className="nav-link px-0 align-middle admin-links">
                 <div className='vt-icons'>
                 <FontAwesomeIcon icon={faClipboardList} className="fs-3" /> 
                 </div>
@@ -42,7 +42,7 @@ export const AdminDashboard = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/admin/allproducts" className="nav-link px-0 align-middle admin-links">
+                <Link to="/glowboom/admin/allproducts" className="nav-link px-0 align-middle admin-links">
                 <div className='vt-icons'>
                 <FontAwesomeIcon icon={faBoxOpen} className="fs-5" />
                 </div>
@@ -50,7 +50,7 @@ export const AdminDashboard = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/admin/add-product" className="nav-link px-0 align-middle admin-links">
+                <Link to="/glowboom/admin/add-product" className="nav-link px-0 align-middle admin-links">
                 <div className='vt-icons'>
                 <FontAwesomeIcon icon={faPlusSquare} className="fs-3" />
                 </div>

@@ -12,12 +12,12 @@ export const Login = ({ onLogin }) => {
       e.preventDefault();
         try {
         
-        const res=await axios.post("https://glowboom-eem8.vercel.app/api/login",{username,password});
+        const res=await axios.post("https://glowboom.onrender.com/api/login",{username,password});
       
         if(res.data.message==="login successful"){
           // alert("login success")
           onLogin();
-          navigate('/admin');
+          navigate('/glowboom/admin');
 
         }else{
           alert('Invalid credentials');
