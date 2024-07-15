@@ -19,7 +19,7 @@ const allProductsRoute=require('./routes/allProducts');
 var app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://namangupta507.github.io/glowboom',
   optionsSuccessStatus: 200
 };
 // view engine setup
