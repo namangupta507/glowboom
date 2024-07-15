@@ -19,7 +19,8 @@ const allProductsRoute=require('./routes/allProducts');
 var app = express();
 
 const corsOptions = {
-  origin: 'https://namangupta507.github.io',
+  origin: 'https://glowboom.vercel.app',
+  
   optionsSuccessStatus: 200
 };
 // view engine setup
