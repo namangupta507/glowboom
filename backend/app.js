@@ -14,11 +14,11 @@ const productRoute=require('./routes/productRoute');
 const allProductsRoute=require('./routes/allProducts');
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'frontend/build')));
 
 // Handle all other routes and return the index.html file
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
 });
 
 var app = express();
