@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 export const HairCareProducts = () => {
-    const [skinCareProducts, setSkinCareProducts] = useState([]);
+    const [hairCareProducts, setHairCareProducts] = useState([]);
 
     useEffect(() => {
         const fetchProducts = async () => {
             try {
                 const res = await axios.get('https://glowboom.onrender.com/allproducts');
                 const filtered = res.data.filter(product => product.category.includes('Hair Care'));
-                setSkinCareProducts(filtered);
+                setHairCareProducts(filtered);
             } catch (error) {
                 console.error('Error fetching products:', error);
             }
@@ -23,7 +23,7 @@ export const HairCareProducts = () => {
            
             <div className="products-main">
                 <div className="row">
-                    {skinCareProducts.map((product) => (
+                    {hairCareProducts.map((product) => (
                         <div className="col-md-3 mb-5" key={product._id}>
                             <div className="products-block">
                                 {product?.images?.map((image, index) => (

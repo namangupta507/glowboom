@@ -14,7 +14,9 @@ export const AllProducts = () => {
     const [images, setImages] = useState([]);
     const [previewImages, setPreviewImages] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState('');
-    const categories = ['Face moisturiser,Skin Care','Lip Care','Essentials','Absolute Must-Haves, Bestseller, Face Moisturiser, Skin Care','Face Gels (moisturiser) for Oily skin, Skin Care','Combos', 'Skin Care', 'Creams,Skin Care', 'Facial Serum,Skin Care','Face packs & srcubs,Skin Care'];
+    const categories = ['Face moisturiser,Skin Care','Lip Care','Essentials','Absolute Must-Haves, Bestseller, Face Moisturiser, Skin Care','Face Gels (moisturiser) for Oily skin, Skin Care','Combos', 'Skin Care', 'Creams,Skin Care', 'Facial Serum,Skin Care','Face packs & srcubs,Skin Care','Hair Care','Hair Care,Shampoo',
+        'Hair Care,Serums','Absolute Must-Haves,Hair Care','Bestseller,Hair Care,Shampoo','Absolute Must-Have,Bestseller,Hair Care,Shampoo','Combos,Hair Care'
+    ];
 
     useEffect(() => {
         const fetchProducts = async () => {
