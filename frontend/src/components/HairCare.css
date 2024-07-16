@@ -61,7 +61,7 @@
 }
 
 
-.skincare-section3-left-header-heading h2 {
+.haircare-section3-left-header-heading h2 {
     color: #D31B5E;
     font-size: 38px;
     padding: 0 45px;
@@ -70,25 +70,25 @@
     font-style: normal;
     text-align: center;
 }
-.skincare-section3-left-header .left-separator{
+.haircare-section3-left-header .left-separator{
     border-bottom-style: solid;
     border-bottom-width: 3px;
     display: block;
     width: 100px;
     border-bottom-color: #E5E5E5;
 }
-.skincare-section3-left-header .right-separator {
+.haircare-section3-left-header .right-separator {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     display: block;
     width: 100px;
     border-bottom-color: #E5E5E5;
 }
-.skincare-section3-heading {
+.haircare-section3-heading {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.skincare-section-2 {
+.haircare-section-2 {
     margin-bottom: 50px;
 }
