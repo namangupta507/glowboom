@@ -9,7 +9,7 @@ export const HairCare = () => {
         <div className='haircare-top'>
         <h2>Skin Care</h2>
       </div>
-      <div className='skincare-section-2'>
+      <div className='haircare-section-2'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
