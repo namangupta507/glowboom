@@ -20,7 +20,8 @@ var app = express();
 
 const corsOptions = {
   origin: 'https://glowboom.vercel.app',
-  
+  methods: 'GET,POST,PUT,DELETE,OPTIONS',
+  allowedHeaders: 'Content-Type,Authorization',
   optionsSuccessStatus: 200
 };
 // view engine setup
