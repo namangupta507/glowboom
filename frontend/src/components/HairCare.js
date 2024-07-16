@@ -2,6 +2,7 @@ import React from 'react';
 import "../components/HairCare.css";
 import image from "../assets/hh.jpeg";
 import { HairCareProducts } from './HairCareProducts';
+import { Section9 } from './Section9';
 
 export const HairCare = () => {
   return (
@@ -56,6 +57,9 @@ export const HairCare = () => {
         </div>
         <div className='haircare-section3-products'>
           <HairCareProducts/>
+        </div>
+        <div className='haircare-section4'>
+          <Section9/>
         </div>
           </div>
         </div>
