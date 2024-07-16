@@ -9,7 +9,7 @@ const createProduct = async (req, res) => {
         }
 
         console.log(req.files,'fff')
-        const imagePaths = req.files.map(file => file.path.replace('public\\', '')); // Adjust path format if necessary
+        const imagePaths = req.files.map(file => file.path.replace(/\\/g, '/').replace('public/', '')); // Adjust path format if necessary
         console.log(imagePaths,'ip');
         const product = new Product({
             title: req.body.title,
@@ -27,7 +27,7 @@ const createProduct = async (req, res) => {
 };
 const updateProduct = async (req, res) => {
   try {
-      const imagePaths = req.files.map(file => file.path.replace('public\\', ''));
+      const imagePaths = req.files.map(file => file.path.replace(/\\/g, '/').replace('public/', ''));
       const updatedProduct = {
           title: req.body.title,
           category: req.body.category,
